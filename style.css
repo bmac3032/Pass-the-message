@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: Poppins;
+  background-color: #a7c5eb;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+input {
+  padding: 10px;
+  margin: 2%;
+  border: none;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 5%;
+}
+
+.card {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  font-family: Poppins;
+  font-size: 1.2em;
+  background-color: #f6ecf0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #dadada;
+}
+
+#prevMessage {
+  border-bottom: 2.5px solid rebeccapurple;
+}
